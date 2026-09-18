@@ -8,7 +8,6 @@ This repository provisions a single Ubuntu VM with [k3s](https://k3s.io/) using 
 - Hostname: `k3s-server`
 - Provider: VirtualBox
 - Resources: 4 CPU, 8192 MB RAM
-- Private IP: `192.168.56.10`
 - Kubernetes: k3s installed via the official install script
 
 During provisioning, kubeconfig is prepared at:
